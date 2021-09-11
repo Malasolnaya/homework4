@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #FFFAF3;
+    overflow: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    background-image: url(../img/Image_1-removebg-preview.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+nav {
+    display: inline-block;
+    border-bottom: 1px #C08D5D solid;
+    padding: 43px 0;
+    margin-bottom: 137px;
+}
+
+nav img {
+    float: left;
+    margin-right: 80px;
+    margin-bottom: 0;
+}
+
+ul {
+    display: inline-block;
+}
+
+nav ul a {
+    display: inline-block;
+    padding: 16px 43px 0 0;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #C08D5D;
+}
+
+h1 {
+    color: #3F4042;
+    font-size: 70px;
+    font-family: 'Yeseva One', cursive;
+    letter-spacing: 6%;
+    font-weight: 400;
+    margin-bottom: 45px;
+}
+
+h1 span {
+    font-size: 50px;
+    display: block;
+    letter-spacing: 6%;
+}
+
+h1 span::after {
+    display: inline-block;
+    content: url(../img/Logo.png);
+    margin-left: 8px;
+}
+
+p {
+    max-width: 50%;
+    font-size: 18px;
+    letter-spacing: 6%; 
+    /* почему-то не работает letter-spacing; */
+    line-height: 147%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #3F4042;
+    margin-bottom: 72px;
+}
+
+img {
+    margin-bottom: 26px;
+}
+
+.read-more {
+    display: inline-block;
+    text-decoration: none;
+    color: #3F4042;
+    font-size: 20px;
+    letter-spacing: 6%;
+    line-height: 64px;
+    padding-left: 15px;
+    border: 2px #C08D5D solid;
+    vertical-align: middle;
+    margin-bottom: 63px;
+}
+
+.read-more::after {
+    display: inline-block;
+    content: url(../img/Vector\ 2.png);
+    background-color: #C08D5D;
+    width: 61px;
+    height: 64px;
+    text-align: center;
+    margin-left: 21px;
+}
+
+.mouse {
+    display: block;
+    margin: auto;
+}
